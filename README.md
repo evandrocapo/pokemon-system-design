@@ -4,6 +4,9 @@
 
 Este repositório contém a solução para o desafio técnico "Pokémon Manager", que consiste em duas APIs Spring Boot que se comunicam para gerenciar dados de Pokémons e as capturas de jogadores.
 
+## Cenário
+Você foi contratado para desenvolver o sistema de backend para um novo jogo de Pokémon. Esse sistema é dividido em dois sistemas: uma para a equipe de administração gerenciar os dados base dos Pokémons, e outra para os jogadores registrarem suas capturas.
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
