@@ -42,12 +42,15 @@ O sistema é composto por duas APIs RESTful, cada uma com sua responsabilidade e
   - `GET /api/player/pokemons/{id_jogador}/{id}`: Busca um Pokémon capturado por ID.
 - **URL Base**: `http://localhost:8081` (porta configurada para evitar conflitos).
 
+<img width="949" height="1111" alt="Arquitetura Principal" src="https://github.com/evandrocapo/pokemon-system-design/blob/main/images/Arquitetura%20Principal.png" />
+
 ### 2.1 **Player Lambda**
 
 - **Responsabilidade**: Cadastro de **Pokémons capturados por jogadores**.
 - **Tecnologia**: Lambda com **Java** e banco de dados DynamoDB.
 - **Funcionalidades**:
   - `POST /api/player/pokemons`: Cadastra um Pokémon capturado, validando o `id_pokemon_base` com a Admin API.
+<img width="2464" height="1477" alt="Lambda Save Pokemon" src="https://github.com/evandrocapo/pokemon-system-design/blob/main/images/Lambda%20Save%20Pokemon.png" />
 
 ---
 
