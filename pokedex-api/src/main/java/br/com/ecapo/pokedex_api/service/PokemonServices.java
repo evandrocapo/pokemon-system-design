@@ -17,11 +17,11 @@ public class PokemonServices {
     private final PokemonRepository pokemonRepository;
     private Logger logger;
 
-    // Este construtor permite a injeção do Logger pelo Mockito
-    public PokemonServices(PokemonRepository pokemonRepository, Logger logger) {
-        this.pokemonRepository = pokemonRepository;
-        this.logger = logger;
-    }
+//    // Este construtor permite a injeção do Logger pelo Mockito
+//    public PokemonServices(PokemonRepository pokemonRepository, Logger logger) {
+//        this.pokemonRepository = pokemonRepository;
+//        this.logger = logger;
+//    }
 
     // Este construtor é para o Spring
     public PokemonServices(PokemonRepository pokemonRepository) {

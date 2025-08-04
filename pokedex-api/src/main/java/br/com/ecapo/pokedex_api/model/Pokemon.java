@@ -14,7 +14,8 @@ public class Pokemon{
         private String nome;
         private String tipo;
 
-        @ElementCollection(fetch = FetchType.EAGER)  // Anotação para mapear a coleção
+        // @ElementCollection(fetch = FetchType.EAGER)  // Anotação para mapear a coleção
+        @ElementCollection(fetch = FetchType.LAZY)  // Anotação para não mapear a coleção (PLSQL)
         @CollectionTable(name = "pokemon_habilidades", joinColumns = @JoinColumn(name = "pokemon_id"))
         @Column(name = "habilidade")
         private List<String> habilidades;
